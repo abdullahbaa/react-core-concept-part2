@@ -5,6 +5,8 @@ import './App.css'
 import Counter from './countery';
 import Team from './Time';
 import Users from './Users';
+import Friends from './Friends.JSX';
+
 
 function App() {
     function handleClick(){
@@ -27,6 +29,7 @@ function App() {
 
   return (
     <>
+      <Friends></Friends>
       <Users></Users>
       <Team></Team>
       <Counter></Counter>
